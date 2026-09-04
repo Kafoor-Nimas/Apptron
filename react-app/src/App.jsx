@@ -1,8 +1,11 @@
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div className="text-3xl">App</div>
-  )
-}
+    <div>
+      <Header />
+    </div>
+  );
+};
 
-export default App
+export default App;
