@@ -1,7 +1,7 @@
 const Header = () => {
   const navItems = ["Home", "About", "Services", "Contact"];
   return (
-    <header className="sticky top-0 z-50 bg-white/80 w-full border-b border-gray-100 shadow-sm transition-all">
+    <header className="sticky top-0 z-50 bg-slate-50 w-full border-b border-gray-100 shadow-sm transition-all">
       <div className="max-w-[1500px] max-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <a
