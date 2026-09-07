@@ -2,13 +2,13 @@ const Header = () => {
   const navItems = ["Home", "About", "Services", "Contact"];
   return (
     <header className="sticky top-0 z-50 bg-slate-50 w-full border-b border-gray-100 shadow-sm transition-all">
-      <div className="max-w-[1500px] max-auto px-6 py-4 flex justify-between items-center">
+      <div className="max-w-[1600px] max-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <a
           href="#"
-          className="text-2xl md:text-3xl font-bold font-serif text-orange-500 tracking-wide hover:opacity-90 transition-opacity"
+          className="text-2xl md:text-3xl font-bold font-serif text-orange-500 tracking-wide hover:opacity-90 transition-opacity ml-6"
         >
-          Apptron<span className="text-gray-800">.</span>
+          Apptron
         </a>
 
         {/* Nav Links */}

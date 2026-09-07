@@ -8,17 +8,18 @@ const Footer = () => {
   ];
   return (
     <footer className="bg-gray-900 text-gray-300 pt-12 pb-2 border-t border-gray-800">
-      <div className="max-w-[1500px] mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+      <div className="max-w-[1600px] mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
         {/* Brand */}
         <div className="space-y-4 md:col-span-1">
           <a
             href="#"
             className="text-2xl font-bold font-serif text-orange-500 tracking-wide"
           >
-            Apptron<span className="text-white">.</span>
+            Apptron
           </a>
           <p className="text-sm text-gray-400 leading-relaxed mt-1 max-w-sm">
-            Building modern, scalable, and high-performance <br /> web applications.
+            Building modern, scalable, and high-performance <br /> web
+            applications.
           </p>
         </div>
 
