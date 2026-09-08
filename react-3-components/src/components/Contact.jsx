@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <section id="contact" className="py-20 px-6 bg-slate-50">
-      <div className="max-w-7xl mx-auto text-center space-y-12">
+      <div className="max-w-[1400px] mx-auto text-center space-y-12">
         <div>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
             Get In <span className="text-orange-500">Touch</span>

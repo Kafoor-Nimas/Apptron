@@ -2,7 +2,7 @@ import AboutImage from "../assets/aboutImage.avif";
 const About = () => {
   return (
     <section id="about" className="py-20 px-6 bg-slate-50">
-      <div className="max-w-[1500px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="order-2 lg:order-1 flex justify-center">
           <img
             src={AboutImage}

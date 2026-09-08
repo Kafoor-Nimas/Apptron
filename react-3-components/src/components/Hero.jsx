@@ -3,7 +3,7 @@ import image from "../assets/img.avif";
 const Hero = () => {
   return (
     <section id="home" className="bg-slate-50 px-6 py-16 md:py-24">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left space-y-6">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
             Building Digital
