@@ -10,10 +10,10 @@ const EmployeeCard = ({
   experience,
   status,
 }) => {
-  const isActive = status.toLowerCase() === "active";
+  const isActive = status?.toLowerCase() === "active";
 
   return (
-    <div className="w-full max-w-sm bg-white rounded-2xl shadow-sm hover:shadow-xl border border-gray-100 oveflow-hidden transition-all duration-300 flex flex-col justify-between">
+    <div className="w-full max-w-sm bg-white rounded-2xl shadow-sm hover:shadow-xl border border-gray-100 overflow-hidden transition-all duration-300 flex flex-col justify-between">
       <div>
         <div className="h-20 bg-gradient-to-r from-orange-400 to-orange-500 relative">
           <span
