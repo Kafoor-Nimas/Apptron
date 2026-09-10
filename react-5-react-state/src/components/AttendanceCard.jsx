@@ -57,7 +57,7 @@ const AttendanceCard = ({
         </span>
       </div>
 
-      <div className="grid grid-cols-2 gap- text-center">
+      <div className="grid grid-cols-2 gap-3 text-center">
         <div className="bg-emerald-50/50 border border-emerald-100 p-3 rounded-xl">
           <span className="block text-2xl font-bold text-emerald-600">
             {presentDays}
@@ -77,7 +77,7 @@ const AttendanceCard = ({
       <div className="flex gap-2 pt-2">
         <button
           onClick={handleMarkPresent}
-          className="flex-1 py-2 px-3bg-emerald-500 hover-bg-emerald-600 text-white font-semibold rounded-xl text-xs shadow-sm transition-all cursor-pointer"
+          className="flex-1 py-2 px-3 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold rounded-xl text-xs shadow-sm transition-all cursor-pointer"
         >
           Mark Present
         </button>
