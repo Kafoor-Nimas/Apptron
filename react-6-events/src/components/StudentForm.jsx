@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const StudentForm = ({ onRegisterSuccess }) => {
-  const [formData, setFormaData] = useState({
+  const [formData, setFormData] = useState({
     image: "",
     fullName: "",
     studentId: "",
@@ -77,7 +77,7 @@ const StudentForm = ({ onRegisterSuccess }) => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormaData((prev) => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
     if (errors[name]) {
       setErrors((prev) => ({ ...prev, [name]: "" }));
     }
