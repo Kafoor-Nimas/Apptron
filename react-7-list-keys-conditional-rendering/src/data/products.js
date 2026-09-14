@@ -1,4 +1,4 @@
-export  const products = [
+export const products = [
   {
     productId: "P101",
     productName: "Wireless Noise-Canceling Headphones",
@@ -8,7 +8,8 @@ export  const products = [
     rating: 4.8,
     stockQuantity: 15,
     isAvailable: true,
-    productImage: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=300&auto=format&fit=crop",
   },
   {
     productId: "P102",
@@ -19,29 +20,32 @@ export  const products = [
     rating: 4.3,
     stockQuantity: 0,
     isAvailable: false,
-    productImage: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=300&auto=format&fit=crop",
   },
   {
     productId: "P103",
-    productName: "Ergonomic Leather Chair",
+    productName: "Modern Minimalist Wooden Desk",
     category: "Furniture",
-    brand: "ComfortPlus",
-    price: 249.00,
-    rating: 4.6,
-    stockQuantity: 8,
+    brand: "WoodCraft",
+    price: 189.99,
+    rating: 4.7,
+    stockQuantity: 10,
     isAvailable: true,
-    productImage: "https://images.unsplash.com/photo-1580481072645-022f9a6d1299?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=300&auto=format&fit=crop",
   },
   {
     productId: "P104",
     productName: "Mechanical Gaming Keyboard",
     category: "Electronics",
     brand: "KeyTech",
-    price: 119.50,
+    price: 119.5,
     rating: 4.7,
     stockQuantity: 25,
     isAvailable: true,
-    productImage: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=300&auto=format&fit=crop",
   },
   {
     productId: "P105",
@@ -52,29 +56,32 @@ export  const products = [
     rating: 4.5,
     stockQuantity: 50,
     isAvailable: true,
-    productImage: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=300&auto=format&fit=crop",
   },
   {
     productId: "P106",
     productName: "Minimalist Modern Desk Lamp",
     category: "Furniture",
     brand: "LumiSpace",
-    price: 45.00,
+    price: 45.0,
     rating: 4.1,
     stockQuantity: 3,
     isAvailable: true,
-    productImage: "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?q=80&w=300&auto=format&fit=crop",
   },
   {
     productId: "P107",
     productName: "Professional DSLR Camera",
     category: "Electronics",
     brand: "OptiCam",
-    price: 899.00,
+    price: 899.0,
     rating: 4.9,
     stockQuantity: 0,
     isAvailable: false,
-    productImage: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=300&auto=format&fit=crop",
   },
   {
     productId: "P108",
@@ -85,7 +92,8 @@ export  const products = [
     rating: 4.4,
     stockQuantity: 18,
     isAvailable: true,
-    productImage: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=300&auto=format&fit=crop",
   },
   {
     productId: "P109",
@@ -96,18 +104,20 @@ export  const products = [
     rating: 4.2,
     stockQuantity: 12,
     isAvailable: true,
-    productImage: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?q=80&w=300&auto=format&fit=crop",
   },
   {
     productId: "P110",
     productName: "Leather Everyday Backpack",
     category: "Fashion",
     brand: "UrbanCraft",
-    price: 129.00,
+    price: 129.0,
     rating: 4.6,
     stockQuantity: 6,
     isAvailable: true,
-    productImage: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=300&auto=format&fit=crop",
   },
   {
     productId: "P111",
@@ -118,7 +128,8 @@ export  const products = [
     rating: 4.0,
     stockQuantity: 0,
     isAvailable: false,
-    productImage: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=300&auto=format&fit=crop",
   },
   {
     productId: "P112",
@@ -129,6 +140,7 @@ export  const products = [
     rating: 4.9,
     stockQuantity: 4,
     isAvailable: true,
-    productImage: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=300&auto=format&fit=crop",
+    productImage:
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=300&auto=format&fit=crop",
   },
 ];
