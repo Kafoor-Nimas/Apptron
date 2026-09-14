@@ -39,10 +39,12 @@ const ProductCard = ({ product }) => {
 
         <div className="flex items-center justify-between text-xs border-y border-gray-50">
           <div className="flex items-center gap-1">
-            <span>★</span>
-            <span>{rating}</span>
+            <span className="text-amber-400 ">★</span>
+            <span className="font-bold text-gray-700">{rating}</span>
           </div>
-          <span>{isAvailable ? `${stockQuantity} units left` : "0 units"}</span>
+          <span className="text-gray-500 font-mono">
+            {isAvailable ? `${stockQuantity} units left` : "0 units"}
+          </span>
         </div>
 
         <div className="flex items-center justify-between pt-1">
