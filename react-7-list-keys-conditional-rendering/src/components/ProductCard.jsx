@@ -37,7 +37,7 @@ const ProductCard = ({ product }) => {
           </h3>
         </div>
 
-        <div className="flex items-center justify-between text-xs border-y border-gray-50">
+        <div className="flex items-center justify-between text-xs border-y border-gray-100 py-2">
           <div className="flex items-center gap-1">
             <span className="text-amber-400 ">★</span>
             <span className="font-bold text-gray-700">{rating}</span>
@@ -59,7 +59,7 @@ const ProductCard = ({ product }) => {
             disabled={!isAvailable}
             className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all shadow-sm ${isAvailable ? "bg-orange-500 hover:bg-orange-600 text-white cursor-pointer" : "bg-gray-200 text-gray-400 cursor-not-allowed"}`}
           >
-            {isAvailable ? "Add to Card" : "Unavailable"}
+            {isAvailable ? "Add to Cart" : "Unavailable"}
           </button>
         </div>
       </div>
