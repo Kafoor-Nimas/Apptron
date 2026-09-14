@@ -1,12 +1,11 @@
+import Products from "./pages/Products";
 
 const App = () => {
   return (
     <div>
-      <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+      <Products />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
