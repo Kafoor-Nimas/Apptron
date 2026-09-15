@@ -18,7 +18,11 @@ const ProductCard = ({ product }) => {
           alt={title}
           className="h-full object-contain transition-transform duration-300 hover:scale-105"
         />
-        <span>{stock > 0 ? `In Stock (${stock})` : "Out of Stock"}</span>
+        <span
+          className={`absolute top-3 right-3 px-3 py-1 rounded-full text-xs font-semibold ${stock > 0 ? "bg-emerald-500 text-white" : "bg-rose-500 text-white"}`}
+        >
+          {stock > 0 ? `In Stock (${stock})` : "Out of Stock"}
+        </span>
       </div>
       {/* Details */}
       <div className="p-5 flex-1 flex flex-col justify-between space-y-3">
@@ -59,7 +63,7 @@ const ProductCard = ({ product }) => {
 
           <button
             disabled={stock === 0}
-            className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all shadow-sm${stock > 0 ? "bg-orange-500 hover:bg-orange-600 text-white cursor-pointer" : "bg-gray-200 text-gray-400 cursor-not-allowed"}`}
+            className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all shadow-sm ${stock > 0 ? "bg-orange-500 hover:bg-orange-600 text-white cursor-pointer" : "bg-gray-200 text-gray-400 cursor-not-allowed"}`}
           >
             {stock > 0 ? "Add to Card" : "Unavailable"}
           </button>
