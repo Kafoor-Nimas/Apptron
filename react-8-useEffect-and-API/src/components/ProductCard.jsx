@@ -1,21 +1,21 @@
 const ProductCard = ({ product }) => {
   const {
-    thumbnail,
-    title,
+    title: name,
     brand,
     category,
     price,
     rating,
     stock,
     description,
+    thumbnail: image,
   } = product;
   return (
     <div className="w-full bg-white rounded-2xl shadow-sm hover:shadow-md border border-gray-100 overflow-hidden flex flex-col justify-between transition-all duration-300">
       {/* Image and Batch */}
       <div className="relative h-48 bg-slate-50 overflow-hidden p-4 flex items-center justify-center">
         <img
-          src={thumbnail}
-          alt={title}
+          src={image}
+          alt={name}
           className="h-full object-contain transition-transform duration-300 hover:scale-105"
         />
         <span
@@ -35,7 +35,7 @@ const ProductCard = ({ product }) => {
           </div>
 
           <h3 className="font-bold text-gray-800 text-base line-clamp-1">
-            {title}
+            {name}
           </h3>
 
           <p className="text-xs text-gray-500 mt-2 line-clamp-2">
